@@ -1,0 +1,9 @@
+
+applications:
+- name: megan-kostick-websockets-demo
+  memory: 256M
+  instances: 1
+  random-route: true
+  disk_quota: 1024M
+  command: megan-kostick-websockets-demo 
+  buildpack: swift_buildpack
